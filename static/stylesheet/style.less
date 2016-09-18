@@ -11,7 +11,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.1;
 }
 
@@ -72,7 +72,9 @@ img {
 }
 
 aside {
-  background-color: @sidebar-bg;
+  background-image: @space;
+  overflow: hidden;
+  position: relative;
   color: @sidebar-text-color;
   text-align: center;
 
@@ -412,7 +414,6 @@ ul.social {
     position: fixed;
     top: 0;
     left: 0;
-    overflow-y: auto;
 
     div {
       padding: 36px 18px;
@@ -452,4 +453,22 @@ ul.social {
       }
     }
   }
+}
+
+// Header animation
+.space {
+    animation: slide 8s linear infinite;
+    background-image: url('../img/stars.svg');
+    background-position: center center;
+    background-size: 240px;
+    height: 800%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 800%;
+    z-index: 1;
+}
+@keyframes slide {
+  0%      {transform: translate3d(0, 0, 0);}
+  100%    {transform: translate3d(-240px, -240px, 0);}
 }
