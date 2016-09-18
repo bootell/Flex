@@ -472,3 +472,61 @@ ul.social {
   0%      {transform: translate3d(0, 0, 0);}
   100%    {transform: translate3d(-240px, -240px, 0);}
 }
+
+// welcome page
+board {
+    background-image: @space;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: @white;
+
+    .floater {
+        float: left;
+        height: 50%;
+        margin-bottom: -120px;
+    }
+
+    .content {
+        clear: both;
+        height: auto;
+        position: relative;
+        text-align: center;
+        z-index: 9;
+    }
+
+    h1 {
+        font-weight: 400;
+    }
+
+    p {
+        color: @med-grey;
+    }
+
+    hr {
+        background-color: @grey;
+        height: 1px;
+        width: 10%;
+        max-width: 300px;
+        min-width: 120px;
+        margin: 20px auto 30px;
+    }
+
+    a.button {
+        color: @lighter-grey;
+        font-weight: bolder;
+        margin: 0 5px;
+        border: 2px solid;
+        padding: 3px 10px 5px;
+        border-radius: 15px;
+    }
+    a.button:hover {
+        color: @white;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+    }
+}
