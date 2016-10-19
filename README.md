@@ -54,13 +54,13 @@ Read more about [Translation Support](https://github.com/alexandrevicenzi/Flex/w
 You can see how things looks like [here](https://blog.alexandrevicenzi.com/flex-pelican-theme.html).
 Or you can take a look at [Flex users](https://github.com/alexandrevicenzi/Flex/wiki/Flex-users).
 
-I'm using Flex in my [personal blog](http://blog.alexandrevicenzi.com/).
+I'm using Flex in my [personal blog](http://blog.bootell.net/).
 
-![Screenshot](https://github.com/alexandrevicenzi/Flex/blob/master/screenshot.png)
+![Screenshot](https://github.com/bootell/Flex/blob/master/screenshot.png)
 
 ## Donate
 
-Did you liked this theme? Buy me a beer and support new features.
+Did you liked this theme? Buy Author a beer and support new features.
 
 [![Gratipay](https://img.shields.io/gratipay/user/alexandrevicenzi.svg?maxAge=2592000)](https://gratipay.com/~alexandrevicenzi/)
 
